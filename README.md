@@ -49,6 +49,8 @@ A client for fetching company data via FINNHUB API.
 Contains the prompt along with examples to guide the OpenAI assistant's responses.
 ### requirements.txt
 List of all Python dependencies needed for the project.
+### database.py
+Saves or updates ticker information in the database.
 
 ## Future
 ### Unit testing

@@ -6,7 +6,7 @@ from datetime import datetime
 DB_FILE = "tickers.db"
 
 def init_db():
-    """Inicializace databáze, pokud neexistuje."""
+    """Initialize the database if it does not exist."""
     with sqlite3.connect(DB_FILE) as conn:
         cursor = conn.cursor()
         cursor.execute('''
@@ -23,7 +23,7 @@ def init_db():
         conn.commit()
 
 def save_ticker_data(ticker, company_name, sector, website, country, ipo_date):
-    """Uloží nebo aktualizuje informace o tickeru v databázi."""
+    """Saves or updates ticker information in the database."""
     with sqlite3.connect(DB_FILE) as conn:
         cursor = conn.cursor()
         cursor.execute('''
@@ -39,5 +39,5 @@ def save_ticker_data(ticker, company_name, sector, website, country, ipo_date):
         ''', (ticker, company_name, sector, website, country, ipo_date, datetime.now()))
         conn.commit()
 
-# 🚀 Zavoláme inicializaci databáze při importu souboru
+
 init_db()

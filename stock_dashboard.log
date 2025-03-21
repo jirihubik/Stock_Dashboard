@@ -1,0 +1,12 @@
+ERROR:yfinance:$ABC: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:root:\u274c Pro ticker ABC nejsou dostupn� cenov� data. Mo�n� byl delistov�n.
+ERROR:yfinance:$123: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:root:\u274c Pro ticker 123 nejsou dostupn� cenov� data. Mo�n� byl delistov�n.
+ERROR:yfinance:$321: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:root:\u274c Pro ticker 321 nejsou dostupn� cenov� data. Mo�n� byl delistov�n.
+ERROR:yfinance:$AHOJ: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:yfinance:$ABC: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:yfinance:$123: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:yfinance:$ABC: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:yfinance:$123: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+ERROR:yfinance:$123ABC: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")

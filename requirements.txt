@@ -5,3 +5,4 @@ plotly==6.0.0
 python-dotenv==1.0.1
 streamlit==1.42.2
 yfinance==0.2.54
+matplotlib==3.10.1

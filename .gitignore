@@ -5,6 +5,6 @@ tests.ipynb
 main_backup.py 
 finnhubAPI_client_backup.py
 openAI_assistant_backup.py
-stock_dasboard.log
+stock_dashboard.log
 
 __pycache__/
